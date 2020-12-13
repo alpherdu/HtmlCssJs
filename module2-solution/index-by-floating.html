@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assingment Solution for Module 2</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		.column {
+			border: 0px;
+			padding: 3px;
+			float: left;
+		}
+		.dish-container {
+			/*padding: 0px;*/
+			border: 2px solid black;
+		}
+		.dish-title {
+			border: 2px solid black;
+			width: 70px;
+			background: yellow;
+			float: right;
+			text-align: center;
+		}
+		.dish-desc {
+			padding: 3px;
+			clear: 	right;
+		}
+		#dissh-container1 {
+			background:lightblue;
+		}
+		#dissh-container2 {
+			background: blue;
+		}
+		#dissh-container3 {
+			background: green;
+		}
+
+		@media (min-width: 992px){
+			#column1 {
+				width: 33.33%;
+			}
+			#column2 {
+				width: 33.33%;
+			}
+			#column3 {
+				width: 33.33%;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px){
+			#column1 {
+				width: 50%;
+			}
+			#column2 {
+				width: 50%;
+
+			}
+			#column3 {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<section class="column" id="column1">
+		<div class="dish-container" id="dissh-container1">
+			<div class="dish-title">Chicken</div>
+			<p class="dish-desc">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</section>
+	<section class="column" id="column2">
+		<div class="dish-container" id="dissh-container2">
+			<div class="dish-title">Beef</div>
+			<p class="dish-desc">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</section>
+	<section class="column" id="column3">
+		<div class="dish-container" id="dissh-container3">
+			<div class="dish-title">Sushi</div>
+			<p class="dish-desc" id="dish-desc3">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</section>
+</body>
+</html>
